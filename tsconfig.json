@@ -1,10 +1,15 @@
 {
   "compilerOptions": {
+    "types": [
+      "@types/jest",
+      "@types/node",
+      "@testing-library/jest-dom"
+    ],
     "jsx": "react-jsx",
     "sourceMap": true,
     "outDir": "dist",
     "strict": true,
-    "target": "es5",
+    "target": "ES2015",
     "module": "commonjs",
     "resolveJsonModule": true,
     "rootDir": ".",
